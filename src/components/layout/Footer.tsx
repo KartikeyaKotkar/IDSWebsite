@@ -83,7 +83,7 @@ export const Footer = () => {
                 <div className="bg-primary/10 p-2.5 rounded-xl text-primary group-hover:bg-primary group-hover:text-primary-foreground transition-colors"><Mail size={20} /></div>
                 <div>
                   <p className="text-xs text-foreground-muted font-bold uppercase mb-1">Email us</p>
-                  <p className="text-foreground font-medium group-hover:text-primary transition-colors">akhilesh@idsmartindia.com</p>
+                  <p className="text-foreground font-medium group-hover:text-primary transition-colors"> <a href='mailto:akhilesh@idsmartindia.com'>akhilesh@idsmartindia.com</a></p>
                 </div>
               </div>
 
@@ -93,8 +93,7 @@ export const Footer = () => {
                 <div>
                   <p className="text-xs text-foreground-muted font-bold uppercase mb-1">Address</p>
                   <p className="text-foreground font-medium text-sm leading-relaxed">
-                    BIZHUB, A101, Pimpri Chowk, Pune, Maharashtra - 411018
-                  </p>
+                    <a href='https://maps.app.goo.gl/TZzjBCDZwd4fEJ3o9'>BIZHUB, A101, Pimpri Chowk, Pune, Maharashtra - 411018</a>                  </p>
                 </div>
               </div>
 
@@ -105,7 +104,7 @@ export const Footer = () => {
                   <div>
                     <p className="text-xs text-foreground-muted font-bold uppercase mb-1">Call us</p>
                     <p className="text-foreground font-medium text-sm leading-relaxed">
-                      +91 72766 80893
+                      <a href='tel:+91 72766 80893'>+91 72766 80893</a>
                     </p>
                   </div>
                 </div>
